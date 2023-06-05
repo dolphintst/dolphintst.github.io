@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useNavigate, Outlet } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
 
 import { COLOR_SCHEME } from "../styles";
@@ -10,23 +10,6 @@ const BlogWrap = styled.section`
   display: grid;
 `;
 
-const BlogBox = styled.div`
-  border: 1px solid ${COLOR_SCHEME.RED_LIGHT};
-  margin: 1.44rem;
-  border-radius: 5px;
-  padding: 1.6rem;
-
-  @media (min-width: 768px) and (max-width: 1023px) {
-    margin: 1.44rem 3.6rem;
-    padding: 2.72rem 3.6rem;
-  }
-
-  @media screen and (min-width: 1024px) {
-    width: 850px;
-    padding: 2.72rem 3.6rem;
-    margin: 1.44rem auto;
-  }
-`;
 
 const ArticleTitle = styled.h3`
   margin: 0;

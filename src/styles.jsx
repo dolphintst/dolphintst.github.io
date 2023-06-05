@@ -1,5 +1,5 @@
 import { useMediaQuery } from "@mui/material";
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 const COLOR_SCHEME = {
   RED_LIGHT: "#AA1C09",

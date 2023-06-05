@@ -1,9 +1,7 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
 import BLOG_CONTENT from "../content/blog";
-import { COLOR_SCHEME } from "../styles";
 import { Wrapper } from "./Wrapper";
 
 const BlogWrapper = styled.div`
