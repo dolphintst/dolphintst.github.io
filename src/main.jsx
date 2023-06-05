@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GlobalStyle } from "./styles.jsx";
 import {
   About,
-  Blog, m,
+  Blog,
   Donate,
   Error,
   Events,
