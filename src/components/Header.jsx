@@ -20,11 +20,11 @@ export const Header = () => {
     <>
       {displayComp('(max-width:767px)') ? (
         <MobileHead>
-          testing
+          NYC TST
           <MenuModal />
         </MobileHead>
       ) : (
-        <Head> testing </Head>
+        <Head> The NYC Chapter of Satanic Temple </Head>
       )}
     </>
   );
