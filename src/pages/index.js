@@ -1,14 +1,15 @@
 import Home from "./Home";
 import Blog from './Blog'
+import Contact from './Contact'
 import Error from './Error'
 import About from './About'
 import Donate from './Donate'
 import Events from './Events'
-import Gotham from './Gotham'
+import Membership from './Membership'
 import LitClub from './LitClub'
 import Ministry from './Ministry'
 import Resources from './Resources'
-import Test from './Test'
+import Satanism from './Satanism'
 
 
 
@@ -16,13 +17,14 @@ import Test from './Test'
 export { 
     Home,
     Blog,
+    Contact,
     Error,
     About,
     Donate,
     Events,
-    Gotham,
+    Membership,
     LitClub,
     Ministry,
     Resources,
-    Test
+    Satanism
 }

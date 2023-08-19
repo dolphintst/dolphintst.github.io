@@ -67,13 +67,16 @@ export const Navbar = () => {
         }}
       >
         <MenuItem sx={NavbarItemStyle} onClick={handleClose}>
-          <NavLink to={`/test`}>test</NavLink>
+          <NavLink to={`/satanism`}>Satanism</NavLink>
         </MenuItem>
         <MenuItem sx={NavbarItemStyle} onClick={handleClose}>
           <NavLink to={`/ministry`}>Ministry</NavLink>
         </MenuItem>
         <MenuItem sx={NavbarItemStyle} onClick={handleClose}>
           <NavLink to={`/blog`}>Blog</NavLink>
+        </MenuItem>
+        <MenuItem sx={NavbarItemStyle} onClick={handleClose}>
+          <NavLink to={`/contact`}>Contact</NavLink>
         </MenuItem>
       </Menu>
     </>
@@ -85,8 +88,8 @@ export const Navbar = () => {
         <NavWrapper>
           <NavLink to={`/`}>Home</NavLink>
           {renderDropdown()}
-          <NavLink to={`/lit-club`}> Lit Club</NavLink>
-          <NavLink to={`/godless-gotham`}> Gotham</NavLink>
+          <NavLink to={`/lit-club`}>Lilith's Lit Club</NavLink>
+          <NavLink to={`/membership`}>Membership</NavLink>
           <NavLink to={`/events`}>Events</NavLink>
           <NavLink to={`/donate`}>Donate</NavLink>
         </NavWrapper>

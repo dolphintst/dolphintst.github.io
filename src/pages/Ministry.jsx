@@ -3,15 +3,18 @@ import { Wrapper } from "../components";
 const Ministry = () => (
   <>
     <Wrapper>
-      <h2>LOREM IPSUM DOLOR SIT AMET?</h2>
+      <h2>WANT TO BE A MINISTER?</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut laboreet dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Would you like to be a Minister of Satan, ordained by The Satanic
+        Temple? If you are a member of The Satanic Temple and an active
+        participant in our community then you may be eligible to register for
+        our online ordination program. At this time, registration for that
+        program is by invitation only. You can find more information about who
+        is eligible, and what the requirements and responsibilities are for
+        our ordained members, on our Satanic Ministry website. If you are not
+        eligible to be ordained by The Satanic Temple at this time, you can
+        still register for the coursework to take the lessons and earn a
+        Certificate of Satanic Scholarship.
       </p>
     </Wrapper>
   </>

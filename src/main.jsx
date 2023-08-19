@@ -6,15 +6,16 @@ import { GlobalStyle } from "./styles.jsx";
 import {
   About,
   Blog,
+  Contact,
   Donate,
   Error,
   Events,
-  Gotham,
+  Membership,
   Home,
   LitClub,
   Ministry,
   Resources,
-  Test,
+  Satanism,
 } from "./pages";
 import { BlogPost, Header, Navbar } from "./components";
 
@@ -32,13 +33,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route index element={<Blog />} />
           <Route path=":blogId" element={<BlogPost />} />
         </Route>
+        <Route path='/contact' element={<Contact />} />
         <Route path='/donate' element={<Donate />} />
         <Route path='/events' element={<Events />} />
-        <Route path='/gotham' element={<Gotham />} />
-        <Route path='/lit' element={<LitClub />} />
+        <Route path='/membership' element={<Membership />} />
+        <Route path='/lit-club' element={<LitClub />} />
         <Route path='/ministry' element={<Ministry />} />
         <Route path='/resources' element={<Resources />} />
-        <Route path='/test' element={<Test />} />
+        <Route path='/satanism' element={<Satanism />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
