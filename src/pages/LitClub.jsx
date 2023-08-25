@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import { Wrapper } from "../components";
-import { LINK_COPY } from "../content/home";
+import { LINK_COPY } from "../content/link";
 
 const Para = styled.p`
   margin: 0.5em 0;
