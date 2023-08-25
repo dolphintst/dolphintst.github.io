@@ -1,5 +1,5 @@
 import { useMediaQuery } from "@mui/material";
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const COLOR_SCHEME = {
   RED_LIGHT: "#AA1C09",
@@ -23,11 +23,12 @@ const GlobalStyle = createGlobalStyle`
 }
     a {
         color: inherit;
-        text-decoration: none;
-        display: block;
+        text-decoration: underline;
+        // display: block;
         position: relative;
         padding: 0.2em 0;
         transition: all .2s ease-in;
+
     }
     a:focus,
     a:hover,
@@ -51,6 +52,11 @@ const GlobalStyle = createGlobalStyle`
     //     opacity: 1;
     //     transform: translate3d(0, 0.2em, 0);
     //   }
+
+    hr {
+        width:75%;
+        margin:20px auto;
+    }
     h1 {
         font-size: 2em;
         // font-size: 2.2em;

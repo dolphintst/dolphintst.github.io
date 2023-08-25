@@ -24,7 +24,7 @@ export const Header = () => {
           <MenuModal />
         </MobileHead>
       ) : (
-        <Head> The NYC Chapter of Satanic Temple </Head>
+        <Head> NYC Chapter of The Satanic Temple </Head>
       )}
     </>
   );

@@ -90,8 +90,8 @@ export const Navbar = () => {
           {renderDropdown()}
           <NavLink to={`/lit-club`}>Lilith's Lit Club</NavLink>
           <NavLink to={`/membership`}>Membership</NavLink>
-          <NavLink to={`/events`}>Events</NavLink>
-          <NavLink to={`/donate`}>Donate</NavLink>
+          {/* <NavLink to={`/events`}>Events</NavLink> */}
+          {/* <NavLink to={`/donate`}>Donate</NavLink> */}
         </NavWrapper>
       )}
     </>
