@@ -9,7 +9,8 @@ const Para = styled.p`
 export const TextBlock = props => (
    <Wrapper>
     <h2>{props.header}</h2>
-    <Para>{props.body}</Para>
+    {props.body.map(para => 
+      <Para>{para}</Para>
+    )}
   </Wrapper>
 );
-
